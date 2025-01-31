@@ -4,7 +4,7 @@ function sendMessage() {
     const messageInput = document.getElementById('messageInput');
     const messageContent = messageInput.value.trim();
 
-    const snappyResponsesArr = ['ur iron', 'shut up kid', 'im gonna kms', 'pony ur old', messageContent];
+    const snappyResponsesArr = ['ur iron', 'shut up kid', 'im gonna kms', 'pony ur old', 'I LOVE BARRETT!!', 'idontcyarekid',messageContent];
     const randomSnappyResponse = getRandomItem(snappyResponsesArr);
 
 
