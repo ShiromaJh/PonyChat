@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFBE0B;
+    background-image: url("./images/oldmanreccy.JPG");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #main-text {
+    color: #001524;
+    font-family:cursive;
+    font-size: 300%;
+    text-align: center;
+  }
+  .chat-container {
+    background: #FFBE0B;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0 4px 10px #151515;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #151515;
+    padding: 10px;
+    background-color: #E0B1CB;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .message {
+    padding: 8px;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    max-width: 75%;
+    border: 1px solid #151515;
+    
+
+  }
+  .input-container {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #E0B1CB;
+
+  }
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #E0B1CB;
+    background-color: #E0B1CB;
+    border-radius: 5px;
+  }
+ 
+ 
+  .button {
+    position: relative;
+    background-color: #04AA6D;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
